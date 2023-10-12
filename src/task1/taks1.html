@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+    <link href="/src/style.css" rel="stylesheet">
+    <script defer src="./task1.js"></script>
+    <title>Task1</title>
+</head>
+<body class="bg-secondary-subtle">
+
+<div class="container pt-5">
+    <div class="row justify-content-center text-center">
+        <h1>Розрахунок прямокутника</h1>
+
+        <label for="length">Довжина:</label>
+        <input class="rounded w-25" id="length" name="length" type="number">
+        <label for="width">Ширина:</label>
+        <input class="rounded w-25" id="width" name="width" type="number">
+
+        <span class="text-danger" id="error"></span>
+        <p>Периметр: <span id="perimeter"></span></p>
+        <p>Площа: <span id="area"></span></p>
+        <p>Довжина діагоналі: <span id="diagonal"></span></p>
+    </div>
+</div>
+</body>
+</html>
