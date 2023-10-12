@@ -9,7 +9,22 @@
     <script defer src="./task2.js"></script>
     <title>Task2</title>
 </head>
-<body>
+<body class="bg-secondary-subtle">
+<div class="container">
+    <div class="row justify-content-center vh-100">
+        <div class="col-3 pt-4">
+            <label class="h5" for="user1-input">Повідомлення user1</label>
+            <textarea class="message-input w-100 rounded" id="user1-input" name="user1-input" placeholder="Введіть текст"></textarea>
+            <button class="btn btn-primary btn-warning" id="user1-button">Відправити</button>
+        </div>
+        <div class="overflow-auto bg-white col-6 my-4 p-3 rounded" id="message-container"></div>
+        <div class="col-3 pt-4">
+            <label class="h5" for="user2-input">Повідомлення user2</label>
+            <textarea class="message-input w-100 rounded" id="user2-input" placeholder="Введіть текст"></textarea>
+            <button class="btn btn-primary btn-warning" id="user2-button">Відправити</button>
+        </div>
 
+    </div>
+</div>
 </body>
 </html>
