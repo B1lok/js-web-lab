@@ -13,13 +13,16 @@
     <script defer src="birthday.js"></script>
 </head>
 <body class="overflow-hidden">
+<div class="position-absolute top-0 end-0 mt-2 me-2">
+    <a class="btn btn-sm btn-dark" href="../index.html">Home</a>
+</div>
 <div class="vh-100 d-flex align-items-center justify-content-center">
     <div class="d-flex justify-content-center bg-dark rounded-pill h-50 mx-1 mx-sm-5">
         <div class="row d-flex align-items-center justify-content-center text-center text-white h-100 p-3">
             <h1 class="w-75 mt-3 mt-md-0">What day were you born?</h1>
             <div class="row d-flex justify-content-center">
                 <label class="h2" for="birthDate">Select your birthday date</label>
-                <input class="my-3 w-25" id="birthDate" max="today" min="1583-01-01" type="date">
+                <input class="my-3 w-25" id="birthDate" min="1583-01-01" type="date">
             </div>
             <p class="h3 w-75">The day you were born is <span class="text-warning" id="dayOfBirth"></span></p>
         </div>
