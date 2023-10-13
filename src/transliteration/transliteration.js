@@ -1,12 +1,12 @@
-const input = document.getElementById("input")
-const output = document.getElementById("output")
+const input = document.getElementById("input");
+const output = document.getElementById("output");
 
 input.addEventListener('input', event => {
     output.value = getTransliteratedString(event.target.value, ukrainianToEnglishTransliterationMap)
 })
 
-function getTransliteratedString(inputString, transliterationMap){
-    return inputString.split("").map(char => transliterationMap[char] || char).join("")
+function getTransliteratedString(inputString, transliterationMap) {
+    return inputString.split("").map(char => transliterationMap[char] || char).join("");
 }
 
 const ukrainianToEnglishTransliterationMap = {

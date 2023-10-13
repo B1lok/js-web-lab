@@ -1,0 +1,26 @@
+.message-input {
+    resize: none;
+    height: 30vh;
+}
+
+.message {
+    width: 49%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.message.user1 {
+    background-color: lightblue;
+}
+
+.message.user2 {
+    background-color: lightcoral;
+}
+
+#message-container {
+    flex: 1;
+    display: flex;
+    overflow: auto;
+}
