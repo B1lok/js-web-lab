@@ -1,7 +1,6 @@
 const today = new Date().toISOString().split('T')[0];
 document.getElementById("birthDate").setAttribute("max", today);
 
-
 const inputDate = document.getElementById("birthDate");
 inputDate.addEventListener('input', calculateBirthdayDayOfWeek);
 
